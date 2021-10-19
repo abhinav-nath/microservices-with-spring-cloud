@@ -24,3 +24,5 @@ http://localhost:8888/limits-service/default
   ]
 }
 ```
+
+> The name of the properties file must match the name of the microservice.
