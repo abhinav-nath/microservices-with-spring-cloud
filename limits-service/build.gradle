@@ -17,11 +17,14 @@ ext {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-actuator'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework.cloud:spring-cloud-starter-config'
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator:2.5.5'
+	implementation 'org.springframework.boot:spring-boot-starter-web:2.5.5'
+	implementation 'org.springframework.cloud:spring-cloud-starter-config:3.0.5'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools:2.5.5'
+	compileOnly 'org.projectlombok:lombok:1.18.22'
+	annotationProcessor 'org.projectlombok:lombok:1.18.22'
+	annotationProcessor group: 'org.springframework.boot', name: 'spring-boot-configuration-processor'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.5'
 }
 
 dependencyManagement {
