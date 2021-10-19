@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class LimitConfiguration {
+public class Limits {
     private int minimum;
     private int maximum;
 }
